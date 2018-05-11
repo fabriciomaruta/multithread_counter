@@ -1,3 +1,6 @@
+/*Nome: Fabrício de Souza Maruta  RA:138313
+Laboratorio 5 - EA876
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -83,7 +86,6 @@ int main(int argc, char **argv) {
       pthread_join(workers[i], NULL);
     }
   }
-  //printf("FIM!\n");
   printf("%d\n", counter);
   return 0;
 }
